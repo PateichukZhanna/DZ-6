@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+/* 1 */
+h1:hover {
+  color: red;
+}
+
+/* 2 */
+input[type="text"]{
+  border: 1px solid yellowgreen;
+}
+
+input[type="text"]:focus {
+  border: 1px solid yellowgreen;
+}
+
+/* 3 */
+a:visited {
+  color: lightgrey;
+}
+
+/* 4 */
+input[type="password"]:disabled {
+  background-color: coral;
+}
+
+/* 5 */
+input[type="email"]:active{
+  background-color: cyan;
+}
+
+/* 6 */
+input[type="checkbox"]:checked {
+  width: 30px;
+  height: 30px;
+}
+
+.parent,
+.parent1 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.child,
+.child1 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.inner,
+.inner1 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+/* 7 */
+.parent .child {
+  border: 3px solid darkorchid;
+}
+
+/* 8 */
+.parent1 .child1,.inner1{
+  border: 3px solid darkorchid;
+}
+
+/* 9 */
+h2.title + p {
+  color: forestgreen;
+}
+
+/* 10 */
+h2.title1 ~ p {
+  color: fuchsia;
+}
